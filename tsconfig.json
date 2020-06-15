@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2020",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "pretty": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+  },
+  "include": [
+    "./src"
+  ]
+}
