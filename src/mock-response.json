@@ -1,0 +1,4221 @@
+{
+  "connection-accepted": {
+    "balance": 9000000,
+    "gameVariationConfig": {
+      "config": {
+        "version": "1.0.1",
+        "audio": {
+          "active": "stereo",
+          "editable": true,
+          "gameWritable": false,
+          "serverOnly": false,
+          "speakerModes": [
+            {
+              "name": "stereo",
+              "speakerLevels": [
+                {
+                  "levels": [
+                    0.75,
+                    0,
+                    0.35,
+                    0,
+                    0.55,
+                    0
+                  ],
+                  "name": "frontLeft"
+                },
+                {
+                  "levels": [
+                    0,
+                    0.75,
+                    0.35,
+                    0,
+                    0,
+                    0.55
+                  ],
+                  "name": "frontRight"
+                }
+              ]
+            },
+            {
+              "name": "5.1",
+              "speakerLevels": [
+                {
+                  "levels": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "name": "frontLeft"
+                },
+                {
+                  "levels": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "name": "frontRight"
+                },
+                {
+                  "levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "name": "frontCenter"
+                },
+                {
+                  "levels": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                  ],
+                  "name": "lowFrequency"
+                },
+                {
+                  "levels": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                  ],
+                  "name": "backLeft"
+                },
+                {
+                  "levels": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                  ],
+                  "name": "backRight"
+                }
+              ]
+            }
+          ]
+        },
+        "buttonNames": {
+          "buttons": [
+            {
+              "id": "Collect",
+              "name": "Cashout"
+            },
+            {
+              "id": "Play",
+              "name": "Play"
+            },
+            {
+              "id": "Service",
+              "name": "Service"
+            },
+            {
+              "id": "Gamble",
+              "name": "Gamble"
+            }
+          ],
+          "editable": true,
+          "gameWritable": false,
+          "serverOnly": false
+        },
+        "combinationTest": {
+          "editable": false,
+          "enabled": false,
+          "gameWritable": false,
+          "serverOnly": false
+        },
+        "configuredBetOptions": {
+          "active": "1 to 8",
+          "editable": false,
+          "gameWritable": false,
+          "serverOnly": false,
+          "betOptions": [
+            {
+              "bets": [
+                {
+                  "amount": 1,
+                  "button": "Bet_1",
+                  "buttonName": "Bet x 1",
+                  "enabled": true
+                },
+                {
+                  "amount": 2,
+                  "button": "Bet_2",
+                  "buttonName": "Bet x 2",
+                  "enabled": true
+                },
+                {
+                  "amount": 3,
+                  "button": "Bet_3",
+                  "buttonName": "Bet x 3",
+                  "enabled": true
+                },
+                {
+                  "amount": 4,
+                  "button": "Bet_4",
+                  "buttonName": "Bet x 4",
+                  "enabled": true
+                },
+                {
+                  "amount": 5,
+                  "button": "Bet_5",
+                  "buttonName": "Bet x 5",
+                  "enabled": true
+                },
+                {
+                  "amount": 6,
+                  "button": "Bet_6",
+                  "buttonName": "Bet x 6",
+                  "enabled": true
+                },
+                {
+                  "amount": 7,
+                  "button": "Bet_7",
+                  "buttonName": "Bet x 7",
+                  "enabled": true
+                },
+                {
+                  "amount": 8,
+                  "button": "Bet_8",
+                  "buttonName": "Bet x 8",
+                  "enabled": true
+                },
+                {
+                  "amount": 9,
+                  "button": "Bet_9",
+                  "buttonName": "Bet x 9",
+                  "enabled": true
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_10",
+                  "buttonName": "Bet x 10",
+                  "enabled": true
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_11",
+                  "buttonName": "Bet x 11",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_12",
+                  "buttonName": "Bet x 12",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_13",
+                  "buttonName": "Bet x 13",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_14",
+                  "buttonName": "Bet x 14",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_15",
+                  "buttonName": "Bet x 15",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_16",
+                  "buttonName": "Bet x 16",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_17",
+                  "buttonName": "Bet x 17",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_18",
+                  "buttonName": "Bet x 18",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_19",
+                  "buttonName": "Bet x 19",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_20",
+                  "buttonName": "Bet x 20",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_21",
+                  "buttonName": "Bet x 21",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_22",
+                  "buttonName": "Bet x 22",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_23",
+                  "buttonName": "Bet x 23",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_24",
+                  "buttonName": "Bet x 24",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_25",
+                  "buttonName": "Bet x 25",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_26",
+                  "buttonName": "Bet x 26",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_27",
+                  "buttonName": "Bet x 27",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_28",
+                  "buttonName": "Bet x 28",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_29",
+                  "buttonName": "Bet x 29",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_30",
+                  "buttonName": "Bet x 30",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_31",
+                  "buttonName": "Bet x 31",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_32",
+                  "buttonName": "Bet x 32",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_33",
+                  "buttonName": "Bet x 33",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_34",
+                  "buttonName": "Bet x 34",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_35",
+                  "buttonName": "Bet x 35",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_36",
+                  "buttonName": "Bet x 36",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_37",
+                  "buttonName": "Bet x 37",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_38",
+                  "buttonName": "Bet x 38",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_39",
+                  "buttonName": "Bet x 39",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_40",
+                  "buttonName": "Bet x 40",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_41",
+                  "buttonName": "Bet x 41",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_42",
+                  "buttonName": "Bet x 42",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_43",
+                  "buttonName": "Bet x 43",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_44",
+                  "buttonName": "Bet x 44",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_45",
+                  "buttonName": "Bet x 45",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_46",
+                  "buttonName": "Bet x 46",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_47",
+                  "buttonName": "Bet x 47",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_48",
+                  "buttonName": "Bet x 48",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_49",
+                  "buttonName": "Bet x 49",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_50",
+                  "buttonName": "Bet x 50",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_51",
+                  "buttonName": "Bet x 51",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_52",
+                  "buttonName": "Bet x 52",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_53",
+                  "buttonName": "Bet x 53",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_54",
+                  "buttonName": "Bet x 54",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_55",
+                  "buttonName": "Bet x 55",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_56",
+                  "buttonName": "Bet x 56",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_57",
+                  "buttonName": "Bet x 57",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_58",
+                  "buttonName": "Bet x 58",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_59",
+                  "buttonName": "Bet x 59",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_60",
+                  "buttonName": "Bet x 60",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_61",
+                  "buttonName": "Bet x 61",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_62",
+                  "buttonName": "Bet x 62",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_63",
+                  "buttonName": "Bet x 63",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_64",
+                  "buttonName": "Bet x 64",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_65",
+                  "buttonName": "Bet x 65",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_66",
+                  "buttonName": "Bet x 66",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_67",
+                  "buttonName": "Bet x 67",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_68",
+                  "buttonName": "Bet x 68",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_69",
+                  "buttonName": "Bet x 69",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_70",
+                  "buttonName": "Bet x 70",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_71",
+                  "buttonName": "Bet x 71",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_72",
+                  "buttonName": "Bet x 72",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_73",
+                  "buttonName": "Bet x 73",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_74",
+                  "buttonName": "Bet x 74",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_75",
+                  "buttonName": "Bet x 75",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_76",
+                  "buttonName": "Bet x 76",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_77",
+                  "buttonName": "Bet x 77",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_78",
+                  "buttonName": "Bet x 78",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_79",
+                  "buttonName": "Bet x 79",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_80",
+                  "buttonName": "Bet x 80",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_81",
+                  "buttonName": "Bet x 81",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_82",
+                  "buttonName": "Bet x 82",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_83",
+                  "buttonName": "Bet x 83",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_84",
+                  "buttonName": "Bet x 84",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_85",
+                  "buttonName": "Bet x 85",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_86",
+                  "buttonName": "Bet x 86",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_87",
+                  "buttonName": "Bet x 87",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_88",
+                  "buttonName": "Bet x 88",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_89",
+                  "buttonName": "Bet x 89",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_90",
+                  "buttonName": "Bet x 90",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_91",
+                  "buttonName": "Bet x 91",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_92",
+                  "buttonName": "Bet x 92",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_93",
+                  "buttonName": "Bet x 93",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_94",
+                  "buttonName": "Bet x 94",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_95",
+                  "buttonName": "Bet x 95",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_96",
+                  "buttonName": "Bet x 96",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_97",
+                  "buttonName": "Bet x 97",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_98",
+                  "buttonName": "Bet x 98",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_99",
+                  "buttonName": "Bet x 99",
+                  "enabled": false
+                },
+                {
+                  "amount": 200000,
+                  "button": "Bet_100",
+                  "buttonName": "Bet x 100",
+                  "enabled": false
+                }
+              ],
+              "description": "8 Bet Options",
+              "name": "1 to 8"
+            }
+          ]
+        },
+        "configuredDenominations": {
+          "activeDenomination": 1,
+          "editable": false,
+          "gameWritable": false,
+          "mode": "Player",
+          "operatorDenominations": [
+            {
+              "selection": 1
+            }
+          ],
+          "playerDenominations": [
+            {
+              "selection": 1
+            }
+          ],
+          "selection": [
+            1
+          ],
+          "serverOnly": false
+        },
+        "configuredDisplays": {
+          "count": 2,
+          "displays": [
+            {
+              "id": "main"
+            },
+            {
+              "id": "buttondeck",
+              "type": "Viridian"
+            }
+          ],
+          "minimum": 1,
+          "verticalSync": 60
+        },
+        "configuredLanguages": {
+          "active": "en-us",
+          "default": "en-us",
+          "editable": true,
+          "gameWritable": true,
+          "languages": [
+            {
+              "id": "en-us",
+              "enabled": true
+            }
+          ],
+          "serverOnly": false
+        },
+        "configuredLineOptions": {
+          "active": "50 Lines",
+          "editable": false,
+          "gameWritable": false,
+          "serverOnly": false,
+          "lineOptions": [
+            {
+              "description": "5 Reels",
+              "lines": [
+                {
+                  "amount": 50,
+                  "button": "Playline_5",
+                  "cost": 50,
+                  "enabled": true
+                }
+              ],
+              "name": "50 Lines"
+            }
+          ]
+        },
+        "configuredMeters": {
+          "editable": true,
+          "gameWritable": true,
+          "serverOnly": false,
+          "meters": [
+            {
+              "hidden": true,
+              "name": "Mystery Trigger"
+            }
+          ]
+        },
+        "configuredVariations": {
+          "active": "Variation 03",
+          "editable": false,
+          "gameWritable": false,
+          "serverOnly": false,
+          "variations": [
+            {
+              "id": "03",
+              "directory": "Variation/03",
+              "maximumWinCredits": 80000,
+              "name": "Variation 03",
+              "returnToPlayer": {
+                "minimum": 94.888,
+                "maximum": 94.988,
+                "weightedAverages": 94.88
+              }
+            }
+          ]
+        },
+        "configuredWeightedAverages": {
+          "editable": false,
+          "gameWritable": false,
+          "serverOnly": true,
+          "weightedAverages": [
+            {
+              "id": "03",
+              "weights": [
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            }
+          ]
+        },
+        "gameInfo": {
+          "editable": false,
+          "gameWritable": false,
+          "mathPackageId": {
+            "id": "SG0006",
+            "issue": "3",
+            "date": "29/07/13"
+          },
+          "name": "5 Frogs",
+          "serverOnly": false,
+          "version": "10262160"
+        },
+        "configuredInitialState": {
+          "editable": true,
+          "gameWritable": true,
+          "initialStates": [
+            {
+              "reelStops": [
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            }
+          ],
+          "serverOnly": false
+        },
+        "configuredReplayStates": [
+          {
+            "betIndex": 0,
+            "lineIndex": 0,
+            "editable": true,
+            "firstGame": true,
+            "gameWritable": true,
+            "reelStops": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "serverOnly": false,
+            "winAmount": 0
+          }
+        ]
+      },
+      "slotConfig": {
+        "main": {
+          "configuredCombinations": [
+            {
+              "combinationGroups": [
+                {
+                  "combinations": [
+                    {
+                      "id": "5 Pic1s",
+                      "award": 1000,
+                      "symbols": [
+                        {
+                          "name": "Pic1",
+                          "repeats": 5
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4 Pic1s",
+                      "award": 200,
+                      "symbols": [
+                        {
+                          "name": "Pic1",
+                          "repeats": 4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3 Pic1s",
+                      "award": 40,
+                      "symbols": [
+                        {
+                          "name": "Pic1",
+                          "repeats": 3
+                        }
+                      ]
+                    },
+                    {
+                      "id": "2 Pic1s",
+                      "award": 10,
+                      "symbols": [
+                        {
+                          "name": "Pic1",
+                          "repeats": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5 Pic2s",
+                      "award": 500,
+                      "symbols": [
+                        {
+                          "name": "Pic2",
+                          "repeats": 5
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4 Pic2s",
+                      "award": 150,
+                      "symbols": [
+                        {
+                          "name": "Pic2",
+                          "repeats": 4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3 Pic2s",
+                      "award": 40,
+                      "symbols": [
+                        {
+                          "name": "Pic2",
+                          "repeats": 3
+                        }
+                      ]
+                    },
+                    {
+                      "id": "2 Pic2s",
+                      "award": 4,
+                      "symbols": [
+                        {
+                          "name": "Pic2",
+                          "repeats": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5 Pic3s",
+                      "award": 500,
+                      "symbols": [
+                        {
+                          "name": "Pic3",
+                          "repeats": 5
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4 Pic3s",
+                      "award": 150,
+                      "symbols": [
+                        {
+                          "name": "Pic3",
+                          "repeats": 4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3 Pic3s",
+                      "award": 40,
+                      "symbols": [
+                        {
+                          "name": "Pic3",
+                          "repeats": 3
+                        }
+                      ]
+                    },
+                    {
+                      "id": "2 Pic3s",
+                      "award": 4,
+                      "symbols": [
+                        {
+                          "name": "Pic3",
+                          "repeats": 2
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5 Pic4s",
+                      "award": 400,
+                      "symbols": [
+                        {
+                          "name": "Pic4",
+                          "repeats": 5
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4 Pic4s",
+                      "award": 100,
+                      "symbols": [
+                        {
+                          "name": "Pic4",
+                          "repeats": 4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3 Pic4s",
+                      "award": 20,
+                      "symbols": [
+                        {
+                          "name": "Pic4",
+                          "repeats": 3
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5 Pic5s",
+                      "award": 400,
+                      "symbols": [
+                        {
+                          "name": "Pic5",
+                          "repeats": 5
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4 Pic5s",
+                      "award": 100,
+                      "symbols": [
+                        {
+                          "name": "Pic5",
+                          "repeats": 4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3 Pic5s",
+                      "award": 20,
+                      "symbols": [
+                        {
+                          "name": "Pic5",
+                          "repeats": 3
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5 Aces",
+                      "award": 400,
+                      "symbols": [
+                        {
+                          "name": "Ace",
+                          "repeats": 5
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4 Aces",
+                      "award": 50,
+                      "symbols": [
+                        {
+                          "name": "Ace",
+                          "repeats": 4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3 Aces",
+                      "award": 20,
+                      "symbols": [
+                        {
+                          "name": "Ace",
+                          "repeats": 3
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5 Kings",
+                      "award": 400,
+                      "symbols": [
+                        {
+                          "name": "King",
+                          "repeats": 5
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4 Kings",
+                      "award": 50,
+                      "symbols": [
+                        {
+                          "name": "King",
+                          "repeats": 4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3 Kings",
+                      "award": 20,
+                      "symbols": [
+                        {
+                          "name": "King",
+                          "repeats": 3
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5 Queens",
+                      "award": 200,
+                      "symbols": [
+                        {
+                          "name": "Queen",
+                          "repeats": 5
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4 Queens",
+                      "award": 30,
+                      "symbols": [
+                        {
+                          "name": "Queen",
+                          "repeats": 4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3 Queens",
+                      "award": 10,
+                      "symbols": [
+                        {
+                          "name": "Queen",
+                          "repeats": 3
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5 Jacks",
+                      "award": 200,
+                      "symbols": [
+                        {
+                          "name": "Jack",
+                          "repeats": 5
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4 Jacks",
+                      "award": 30,
+                      "symbols": [
+                        {
+                          "name": "Jack",
+                          "repeats": 4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3 Jacks",
+                      "award": 10,
+                      "symbols": [
+                        {
+                          "name": "Jack",
+                          "repeats": 3
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5 Tens",
+                      "award": 200,
+                      "symbols": [
+                        {
+                          "name": "Ten",
+                          "repeats": 5
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4 Tens",
+                      "award": 20,
+                      "symbols": [
+                        {
+                          "name": "Ten",
+                          "repeats": 4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3 Tens",
+                      "award": 10,
+                      "symbols": [
+                        {
+                          "name": "Ten",
+                          "repeats": 3
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5 Nines",
+                      "award": 200,
+                      "symbols": [
+                        {
+                          "name": "Nine",
+                          "repeats": 5
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4 Nines",
+                      "award": 20,
+                      "symbols": [
+                        {
+                          "name": "Nine",
+                          "repeats": 4
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3 Nines",
+                      "award": 10,
+                      "symbols": [
+                        {
+                          "name": "Nine",
+                          "repeats": 3
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "line"
+                },
+                {
+                  "combinations": [
+                    {
+                      "id": "3 Scatters",
+                      "award": 4,
+                      "feature": "FreeSpins",
+                      "multiplyWin": true,
+                      "symbols": [
+                        {
+                          "name": "Scatter",
+                          "repeats": 3
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "scatter"
+                }
+              ],
+              "lineOptions": []
+            }
+          ],
+          "configuredPlayLines": {
+            "defaultLines": [
+              50
+            ]
+          },
+          "configuredReelStrips": [
+            {
+              "betIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              "lineIndices": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              "numberOfRows": 4,
+              "reelStrips": [
+                "Reel 1",
+                "Reel 2",
+                "Reel 3",
+                "Reel 4",
+                "Reel 5"
+              ]
+            }
+          ],
+          "name": "BaseGame",
+          "reelStripConfig": "main",
+          "substitutions": [
+            {
+              "name": "Wild",
+              "targetName": "Pic1"
+            },
+            {
+              "name": "Wild",
+              "targetName": "Pic2"
+            },
+            {
+              "name": "Wild",
+              "targetName": "Pic3"
+            },
+            {
+              "name": "Wild",
+              "targetName": "Pic4"
+            },
+            {
+              "name": "Wild",
+              "targetName": "Pic5"
+            },
+            {
+              "name": "Wild",
+              "targetName": "Nine"
+            },
+            {
+              "name": "Wild",
+              "targetName": "Ten"
+            },
+            {
+              "name": "Wild",
+              "targetName": "Jack"
+            },
+            {
+              "name": "Wild",
+              "targetName": "Queen"
+            },
+            {
+              "name": "Wild",
+              "targetName": "King"
+            },
+            {
+              "name": "Wild",
+              "targetName": "Ace"
+            }
+          ],
+          "symbols": [
+            {
+              "id": "1",
+              "name": "Pic1"
+            },
+            {
+              "id": "2",
+              "name": "Pic2"
+            },
+            {
+              "id": "3",
+              "name": "Pic3"
+            },
+            {
+              "id": "4",
+              "name": "Pic4"
+            },
+            {
+              "id": "5",
+              "name": "Pic5"
+            },
+            {
+              "id": "6",
+              "name": "Nine"
+            },
+            {
+              "id": "7",
+              "name": "Ten"
+            },
+            {
+              "id": "8",
+              "name": "Jack"
+            },
+            {
+              "id": "9",
+              "name": "Queen"
+            },
+            {
+              "id": "10",
+              "name": "King"
+            },
+            {
+              "id": "11",
+              "name": "Ace"
+            },
+            {
+              "id": "12",
+              "name": "Scatter",
+              "anticipation": "true"
+            },
+            {
+              "id": "13",
+              "name": "Wild"
+            }
+          ],
+          "version": "1.00"
+        }
+      },
+      "reelStripConfig": {
+        "main": {
+          "reelStripDefinitions": [
+            {
+              "name": "Reel 1",
+              "stops": [
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Scatter"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Scatter"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Scatter"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Pic2"
+                }
+              ]
+            },
+            {
+              "name": "Reel 2",
+              "stops": [
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Scatter"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Scatter"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Wild"
+                }
+              ]
+            },
+            {
+              "name": "Reel 3",
+              "stops": [
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Scatter"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Scatter"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Wild"
+                }
+              ]
+            },
+            {
+              "name": "Reel 4",
+              "stops": [
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Wild"
+                }
+              ]
+            },
+            {
+              "name": "Reel 5",
+              "stops": [
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Pic1"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic5"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Ace"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Ten"
+                },
+                {
+                  "name": "Pic4"
+                },
+                {
+                  "name": "King"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Nine"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Pic2"
+                },
+                {
+                  "name": "Jack"
+                },
+                {
+                  "name": "Pic3"
+                },
+                {
+                  "name": "Queen"
+                },
+                {
+                  "name": "Wild"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "overrideConfig": {
+        "showPrograms": {
+          "enabled": true,
+          "programs": [
+            {
+              "name": "Losing Spin",
+              "values": [
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Winning Spin (Small)",
+              "values": [
+                1,
+                1,
+                11,
+                35,
+                13
+              ]
+            },
+            {
+              "name": "Winning Spin (Large)",
+              "values": [
+                21,
+                0,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Anticipation (No Win)",
+              "values": [
+                9,
+                11,
+                24,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Game Specific Tune (Small)",
+              "values": [
+                4,
+                4,
+                11,
+                35,
+                4
+              ]
+            },
+            {
+              "name": "Game Specific Tune (Large)",
+              "values": [
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            },
+            {
+              "name": "NA - Bonus Award (Small)",
+              "values": [
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "NA - Bonus Award (Large)",
+              "values": [
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Feature Trigger (Small)",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "NA - Feature Trigger (Large)",
+              "values": [
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "NA - Feature Trigger & Symbol Sound (Small)",
+              "values": [
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "NA - Feature Trigger & Symbol Sound (Large)",
+              "values": [
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Feature Trigger + Coinshower",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                21,
+                0,
+                0,
+                0,
+                0,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Feature Trigger + Anticipation",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                9,
+                11,
+                24,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Feature Trigger + Retrigger",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Feature Trigger + Last Spin Retrigger",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Feature Trigger + Game Specific Tune (Small)",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                4,
+                4,
+                11,
+                35,
+                4,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Feature Trigger + Coinshower + Coinshower (Game Specific) + Retrigger",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                21,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                4,
+                4,
+                4,
+                4,
+                0,
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Feature Trigger",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Feature Trigger + Last Spin Win",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                27,
+                27,
+                46,
+                51,
+                36,
+                31
+              ]
+            },
+            {
+              "name": "Feature Trigger + Last Spin Coinshower (Game Specific)",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            },
+            {
+              "name": "Feature Trigger + All Losing",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Largest Win",
+              "values": [
+                8,
+                10,
+                10,
+                2,
+                2,
+                0,
+                5,
+                5,
+                5,
+                5,
+                5,
+                0,
+                5,
+                5,
+                5,
+                5,
+                5,
+                0,
+                5,
+                5,
+                5,
+                5,
+                5,
+                0,
+                5,
+                5,
+                5,
+                5,
+                5,
+                0,
+                5,
+                5,
+                5,
+                5,
+                5,
+                0,
+                5,
+                5,
+                5,
+                5,
+                5,
+                0,
+                5,
+                5,
+                5,
+                5,
+                5,
+                0,
+                5,
+                5,
+                5,
+                5,
+                5,
+                0,
+                5,
+                5,
+                5,
+                5,
+                5,
+                0,
+                5,
+                5,
+                5,
+                5,
+                5
+              ]
+            },
+            {
+              "name": "Super Gaffe Spin - Lowest win",
+              "values": [
+                16,
+                17,
+                8,
+                8,
+                22
+              ]
+            },
+            {
+              "name": "Super Gaffe Spin - Base",
+              "values": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                11,
+                11,
+                11,
+                11,
+                11,
+                0,
+                21,
+                21,
+                21,
+                21,
+                21,
+                0,
+                31,
+                31,
+                31,
+                31,
+                0,
+                0,
+                41,
+                41,
+                41,
+                0,
+                0,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                0,
+                16,
+                16,
+                16,
+                11,
+                22,
+                0,
+                12,
+                12,
+                8,
+                2,
+                2,
+                0,
+                10,
+                8,
+                14,
+                10,
+                10,
+                0,
+                24,
+                14,
+                24,
+                8,
+                22,
+                0,
+                11,
+                25,
+                11,
+                7,
+                11,
+                0,
+                29,
+                15,
+                15,
+                0,
+                7,
+                0,
+                7,
+                7,
+                7,
+                7,
+                11,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                15,
+                9,
+                0,
+                9,
+                9,
+                9,
+                15,
+                14,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                2,
+                2,
+                2,
+                34,
+                22,
+                0,
+                16,
+                16,
+                49,
+                8,
+                22,
+                0,
+                12,
+                44,
+                2,
+                2,
+                2,
+                0,
+                10,
+                8,
+                14,
+                34,
+                22,
+                0,
+                24,
+                14,
+                24,
+                34,
+                22,
+                0,
+                11,
+                25,
+                11,
+                7,
+                29,
+                0,
+                29,
+                15,
+                15,
+                0,
+                29,
+                0,
+                7,
+                7,
+                7,
+                34,
+                11,
+                0,
+                0,
+                0,
+                49,
+                27,
+                7,
+                0,
+                1,
+                1,
+                1,
+                15,
+                29,
+                0,
+                9,
+                9,
+                9,
+                34,
+                14,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Super Gaffe Spin - Feature",
+              "values": [
+                8,
+                10,
+                10,
+                2,
+                2,
+                0,
+                5,
+                5,
+                5,
+                5,
+                5,
+                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                0,
+                25,
+                25,
+                25,
+                25,
+                25,
+                0,
+                35,
+                35,
+                35,
+                35,
+                0,
+                0,
+                45,
+                45,
+                45,
+                0,
+                0,
+                0,
+                0,
+                0,
+                55,
+                0,
+                0,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                8,
+                10,
+                10,
+                2,
+                2,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                8,
+                10,
+                10,
+                2,
+                2,
+                0,
+                2,
+                2,
+                2,
+                2,
+                22,
+                0,
+                16,
+                16,
+                16,
+                11,
+                13,
+                0,
+                12,
+                12,
+                8,
+                8,
+                2,
+                0,
+                10,
+                8,
+                14,
+                8,
+                22,
+                0,
+                24,
+                14,
+                24,
+                13,
+                22,
+                0,
+                11,
+                25,
+                11,
+                7,
+                7,
+                0,
+                29,
+                15,
+                15,
+                0,
+                0,
+                0,
+                7,
+                7,
+                7,
+                27,
+                7,
+                0,
+                0,
+                0,
+                0,
+                1,
+                7,
+                0,
+                8,
+                10,
+                10,
+                2,
+                2,
+                0,
+                1,
+                1,
+                1,
+                9,
+                9,
+                0,
+                9,
+                9,
+                9,
+                9,
+                14,
+                0,
+                2,
+                2,
+                49,
+                2,
+                2,
+                0,
+                16,
+                16,
+                16,
+                34,
+                22,
+                0,
+                12,
+                12,
+                49,
+                2,
+                2,
+                0,
+                8,
+                10,
+                10,
+                2,
+                2,
+                0,
+                10,
+                8,
+                14,
+                10,
+                29,
+                0,
+                24,
+                14,
+                49,
+                8,
+                22,
+                0,
+                11,
+                25,
+                11,
+                34,
+                7,
+                0,
+                29,
+                15,
+                49,
+                27,
+                7,
+                0,
+                7,
+                7,
+                7,
+                27,
+                29,
+                0,
+                0,
+                0,
+                0,
+                34,
+                7,
+                0,
+                1,
+                1,
+                49,
+                9,
+                9,
+                0,
+                9,
+                9,
+                49,
+                15,
+                14,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Win Tunes",
+              "values": [
+                16,
+                16,
+                16,
+                11,
+                13,
+                0,
+                10,
+                8,
+                14,
+                10,
+                10,
+                0,
+                0,
+                0,
+                0,
+                15,
+                14,
+                0,
+                16,
+                16,
+                16,
+                11,
+                22,
+                0,
+                10,
+                8,
+                14,
+                10,
+                22,
+                0,
+                2,
+                2,
+                2,
+                8,
+                22,
+                0,
+                29,
+                15,
+                15,
+                27,
+                7,
+                0,
+                8,
+                8,
+                8,
+                15,
+                14,
+                0,
+                12,
+                11,
+                1,
+                2,
+                10,
+                0,
+                24,
+                13,
+                24,
+                2,
+                10,
+                0,
+                29,
+                15,
+                15,
+                0,
+                7
+              ]
+            },
+            {
+              "name": "Win Celebration Messages",
+              "values": [
+                2,
+                2,
+                8,
+                8,
+                22,
+                0,
+                2,
+                2,
+                8,
+                8,
+                22,
+                1,
+                2,
+                2,
+                8,
+                8,
+                22,
+                2,
+                2,
+                2,
+                8,
+                8,
+                22,
+                3,
+                2,
+                2,
+                8,
+                8,
+                22,
+                4,
+                2,
+                2,
+                8,
+                8,
+                22,
+                5,
+                2,
+                2,
+                8,
+                8,
+                22,
+                6,
+                2,
+                2,
+                8,
+                8,
+                22,
+                7,
+                2,
+                2,
+                8,
+                8,
+                22,
+                8,
+                2,
+                2,
+                8,
+                8,
+                22,
+                9,
+                2,
+                2,
+                8,
+                8,
+                22,
+                10,
+                2,
+                2,
+                8,
+                8,
+                22,
+                11,
+                2,
+                2,
+                8,
+                8,
+                22,
+                12,
+                10,
+                8,
+                14,
+                10,
+                10,
+                0,
+                10,
+                8,
+                14,
+                10,
+                10,
+                1,
+                10,
+                8,
+                14,
+                10,
+                10,
+                2,
+                10,
+                8,
+                14,
+                10,
+                10,
+                3,
+                10,
+                8,
+                14,
+                10,
+                10,
+                4,
+                10,
+                8,
+                14,
+                10,
+                10,
+                5,
+                10,
+                8,
+                14,
+                10,
+                10,
+                6,
+                10,
+                8,
+                14,
+                10,
+                10,
+                7,
+                10,
+                8,
+                14,
+                10,
+                10,
+                8,
+                10,
+                8,
+                14,
+                10,
+                10,
+                9,
+                16,
+                16,
+                16,
+                11,
+                13,
+                0,
+                16,
+                16,
+                16,
+                11,
+                13,
+                1,
+                16,
+                16,
+                16,
+                11,
+                13,
+                2,
+                16,
+                16,
+                16,
+                11,
+                13,
+                3,
+                16,
+                16,
+                16,
+                11,
+                13,
+                4,
+                8,
+                8,
+                8,
+                8,
+                8,
+                0,
+                8,
+                8,
+                8,
+                8,
+                8,
+                1,
+                8,
+                8,
+                8,
+                8,
+                8,
+                2,
+                8,
+                8,
+                8,
+                8,
+                8,
+                3,
+                8,
+                8,
+                8,
+                8,
+                8,
+                4,
+                2,
+                2,
+                2,
+                2,
+                2,
+                0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1
+              ]
+            },
+            {
+              "name": "Feature Trigger + Losing Spin + Game Specific Tune",
+              "values": [
+                9,
+                11,
+                11,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                4,
+                46,
+                15,
+                22,
+                13,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1,
+                0,
+                12,
+                14,
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "name": "Wintune 15",
+              "values": [
+                4,
+                45,
+                47,
+                3,
+                17
+              ]
+            },
+            {
+              "name": "Win Celebration Messages - Level 1",
+              "values": [
+                2,
+                2,
+                8,
+                8,
+                22,
+                "?"
+              ]
+            },
+            {
+              "name": "Win Celebration Messages - Level 2",
+              "values": [
+                10,
+                8,
+                14,
+                10,
+                10,
+                "?"
+              ]
+            },
+            {
+              "name": "Win Celebration Messages - Level 3",
+              "values": [
+                16,
+                16,
+                16,
+                11,
+                13,
+                "?"
+              ]
+            },
+            {
+              "name": "Win Celebration Messages - Level 4",
+              "values": [
+                8,
+                8,
+                8,
+                8,
+                8,
+                "?"
+              ]
+            },
+            {
+              "name": "Win Celebration Messages - Level 5",
+              "values": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                "?"
+              ]
+            },
+            {
+              "name": "Scatter & Line Wins",
+              "values": [
+                43,
+                44,
+                42,
+                35,
+                30,
+                0
+              ]
+            }
+          ]
+        },
+        "version": "1.00"
+      }
+    },
+    "recoveryRetriesExceeded": false,
+    "storedPlayerRoundFrontend": []
+  }
+}
